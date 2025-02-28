@@ -15,12 +15,14 @@ python3 -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r requirements.txt
 ```
-## Running the experiment
+## 🚀 Running the experiment
+```sh
 python src/run_experiment.py --input data/protein.fasta --output results/
 python src/visualization.py --input results/shap_values.npy
+```
 
 ## 📜 License
-Licensed under the MIT License.
+Licensed under the **MIT License**.
 
 ## 🔗 Reference
 This work is part of our research on explainability in protein structure prediction. Citation details will be updated after publication.
