@@ -14,7 +14,7 @@ cd DeepSHAP-OpenFold
 python3 -m venv env
 source env/bin/activate  # On Windows: env\Scripts\activate
 pip install -r requirements.txt
-
+```
 ## Running the experiment
 python src/run_experiment.py --input data/protein.fasta --output results/
 python src/visualization.py --input results/shap_values.npy
