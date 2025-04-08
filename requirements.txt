@@ -1,0 +1,24 @@
+# Core ML and Scientific Libraries
+torch
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Bioinformatics & Protein Tools
+biopython
+dgl
+py3Dmol
+
+# SHAP Explanation
+shap
+
+# Visualization & Web Reporting
+jinja2
+
+# OpenFold + ESM Models
+fair-esm[esmfold] @ git+https://github.com/facebookresearch/esm.git
+
+# Optional if you use JSON, YAML, or CLI parsing
+argparse

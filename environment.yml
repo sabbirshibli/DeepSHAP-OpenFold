@@ -1,0 +1,17 @@
+name: openfold
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - biopython
+  - matplotlib
+  - seaborn
+  - numpy
+  - pandas
+  - pytorch
+  - shap
+  - dgl
+  - pip:
+      - git+https://github.com/facebookresearch/esm.git

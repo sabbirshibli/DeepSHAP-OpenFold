@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pkl
+*.npy
+*.pt
+.env
+.vscode/
+.ipynb_checkpoints/
+results/
+models/
+data/openfold_output.json
+*.log
+.DS_Store

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pkl
+*.npy
+*.pt
+.env
+.vscode/
+results/
+data/openfold_output.json
+models/
