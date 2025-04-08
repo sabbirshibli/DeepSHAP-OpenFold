@@ -5,6 +5,3 @@ __pycache__/
 *.pt
 .env
 .vscode/
-results/
-data/openfold_output.json
-models/
